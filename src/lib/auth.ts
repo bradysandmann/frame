@@ -32,7 +32,7 @@ export async function signOut() {
 
 /**
  * If the user has no widgets, seed them.
- * Runs idempotently — checks first.
+ * Runs idempotently. Checks first.
  */
 export async function seedIfEmpty(userId: string) {
   const { data: existing, error } = await supabase
@@ -119,7 +119,7 @@ export async function seedIfEmpty(userId: string) {
     }
 
     // Stash triage reasoning into the conversation's resolution-detail by upserting a stub message
-    // (kept on the conversation row itself via a "frame internal" message — visible to user in detail page)
+    // (kept on the conversation row itself via a "frame internal" message, visible to user in detail page)
     await supabase.from('messages').insert({
       conversation_id: convo.id,
       sender: 'frame',

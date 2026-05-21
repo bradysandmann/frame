@@ -10,7 +10,7 @@ interface MockMessage {
 const SCRIPTS: MockMessage[][] = [
   [
     { sender: 'visitor', body: "Hey, we've got a leak in the dining room ceiling after Sunday's storm.", delay: 800 },
-    { sender: 'frame', body: 'Storm damage on the roof — I am flagging this for the owner now. Single-family or townhome? Best phone?', delay: 1600 },
+    { sender: 'frame', body: 'Storm damage on the roof: I am flagging this for the owner now. Single-family or townhome? Best phone?', delay: 1600 },
     { sender: 'visitor', body: 'Single-family, South Tampa. 813-555-0144.', delay: 1100 },
     { sender: 'frame', body: 'Got it. Owner will call within the hour to schedule a free inspection.', delay: 1400 },
   ],

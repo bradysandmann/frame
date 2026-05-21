@@ -29,5 +29,5 @@
   <text x="200" y="320" font-family="Inter, sans-serif" font-size="100" font-weight="900" fill="url(#ogText)">Frame</text>
   <text x="80" y="430" font-family="Inter, sans-serif" font-size="48" font-weight="800" fill="white">Inbound chat triage</text>
   <text x="80" y="490" font-family="Inter, sans-serif" font-size="48" font-weight="800" fill="white">that doesn't miss the buyer</text>
-  <text x="80" y="560" font-family="JetBrains Mono, monospace" font-size="22" font-weight="500" fill="#9D5CE3">frame.app  —  triage every message</text>
+  <text x="80" y="560" font-family="JetBrains Mono, monospace" font-size="22" font-weight="500" fill="#9D5CE3">frame.app  ·  triage every message</text>
 </svg>
